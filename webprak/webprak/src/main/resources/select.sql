@@ -1,0 +1,1 @@
+SELECT c.name_chapter, c.date_chapter FROM theme_ t JOIN chapter_ c ON t.name_chapter = c.name_chapter WHERE t.id_theme = 1;
